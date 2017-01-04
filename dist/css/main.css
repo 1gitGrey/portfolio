@@ -1,7 +1,7 @@
 
 
         html {
-        font-family: "Lato",Arial,sans-serif;
+        font-family: "Cormorant Garamond", serif, "Work Sans", sans-serif;
         -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%
     }
@@ -2499,193 +2499,7 @@ a.video>figure:before {
     #navbar-util>a {
         padding:0 14px
     }
-}
 
-#navbar-util #search-toggle {
-    font-size: 24px;
-    font-size: 2.4rem;
-    background-color: #f1f1f1;
-    cursor: pointer
-}
-
-#nav-cart {
-    font-size: 14px;
-    font-size: 1.4rem;
-    line-height: 20px;
-    height: 70px;
-    background-color: #e9e9e9
-}
-
-#nav-cart:hover {
-    color: #fff;
-    background-color: #616161
-}
-
-#nav-cart span {
-    display: block;
-    float: left;
-    font-weight: 700
-}
-
-#nav-cart .cart-qty {
-    position: relative;
-    top: -14px;
-    width: 30px;
-    padding: 16px 10px 6px;
-    text-align: center;
-    color: #fff;
-    z-index: 2
-}
-
-#nav-cart:hover .cart-qty {
-    color: #616161
-}
-
-#nav-cart .cart-qty:before {
-    font-size: 30px;
-    font-size: 3rem;
-    line-height: 40px;
-    color: #616161;
-    font-family: 'icomoon';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    display: block;
-    margin-top: -20px;
-    margin-left: -20px;
-    content: "\e60b";
-    text-align: center;
-    z-index: -1
-}
-
-#nav-cart:hover .cart-qty:before {
-    color: #fff
-}
-
-#nav-cart .cart-val {
-    visibility: hidden;
-    width: 1px;
-    overflow: hidden;
-    white-space: nowrap
-}
-
-#nav-cart:hover .cart-val {
-    width: 70px;
-    visibility: visible
-}
-
-@media (min-width: 1024px) {
-    #nav-cart {
-        height:71px
-    }
-}
-
-#nav-cart.on {
-    color: #fff;
-    background-color: #616161
-}
-
-#nav-cart.on .cart-val {
-    width: 70px;
-    visibility: visible
-}
-
-#nav-cart.on .cart-qty {
-    color: #616161
-}
-
-#nav-cart.on .cart-qty:before {
-    color: #fff
-}
-
-#search {
-    background-color: #f1f1f1
-}
-
-#search input {
-    font-size: 20px;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1;
-    width: 70%;
-    height: 30px;
-    letter-spacing: 2px;
-    display: inline-block;
-    color: #474749;
-    padding: 20px 60px;
-    background-color: #f1f1f1;
-    border: 0
-}
-
-#search input:focus {
-    outline: none
-}
-
-@media (max-width: 1023px) {
-    #search input {
-        width:50%;
-        padding: 20px 15px
-    }
-}
-
-#search button {
-    font-size: 30px;
-    font-size: 3rem;
-    line-height: 1;
-    float: right;
-    color: #fff;
-    border: 0;
-    padding: 20px 40px;
-    background-color: #474749 !important;
-    -webkit-appearance: none
-}
-
-@media (max-width: 1023px) {
-    #search button {
-        padding:20px 35px
-    }
-}
-
-@media (max-width: 767px) {
-    #search button {
-        padding:20px 34px
-    }
-}
-
-#search input::-moz-placeholder {
-    font-size: 20px;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1;
-    color: #949494;
-    height: 30px;
-    letter-spacing: 2px;
-    text-align: left
-}
-
-#search input:-ms-input-placeholder {
-    font-size: 20px;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1;
-    color: #949494;
-    height: 30px;
-    letter-spacing: 2px;
-    text-align: left
-}
-
-#search input::-webkit-input-placeholder {
-    font-size: 20px;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1;
-    color: #949494;
-    height: 30px;
-    letter-spacing: 2px;
-    text-align: left
-}
 
 .navbar-toggle {
     position: relative;
@@ -2855,17 +2669,6 @@ a.video>figure:before {
 
 .sub-nav ul .active a {
     color: #616161
-}
-
-#checkout-nav {
-    padding: 80px 0 30px
-}
-
-#checkout-nav ul {
-    text-align: left;
-    padding: 0 5%;
-    margin-left: -15px;
-    background-color: transparent
 }
 
 .page-header {
@@ -5346,4 +5149,11 @@ img.mfp-img {
     margin-bottom: 10px;
     padding-bottom: 5px;
     padding-top: 15px;
+}
+
+body {
+
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Work Sans', sans-serif;
+
 }
